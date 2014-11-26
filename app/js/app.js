@@ -1,5 +1,1 @@
-//setter
-angular.module("app", []);
-
-//getter
-angular.module("app");
+var app = angular.module("app", []);

@@ -7,10 +7,19 @@ app.config(function($routeProvider) {
 		controller: 'LoginController'
 	});
 
+	$routeProvider.when('/home', {
+		templateUrl: 'home.html',
+		controller: 'HomeController'
+	});
+
 	$routeProvider.otherwise({ redirectTo : '/login' });
 	
 });
 
 app.controller('LoginController', function() {
+
+});
+
+app.controller('HomeController', function() {
 
 });
